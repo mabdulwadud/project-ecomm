@@ -1,0 +1,90 @@
+body *{margin: 0;}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+.hero{
+    height: 100vh;
+    background-color: #061111;
+    padding: 7% 15%;
+
+}
+
+h1{
+    font-family: "Playfair Display";
+}
+
+.hero-text{
+    font-size: 4.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.hero-img{
+    position: relative;
+    z-index: 1;
+    max-height: 100vh;
+    width: 90%;
+    vertical-align: middle;
+}
+
+.hero-btn{
+    padding: 1.5rem;
+    width: 50%;
+    
+}
+
+.navbar-nav, .btn{
+    font-family: 'Montserrat';
+
+}
+
+.nav-item{
+    letter-spacing: .2rem;
+}
+
+#features, #testimonials, #membership, #cta{
+    padding: 7% 15%;
+    position: relative;
+    z-index: 2;
+
+}
+
+#features{
+    background-color: #061111;
+    box-shadow: 5px -5px 25px 25px #061111;
+    min-height: 100vh;
+
+}
+
+.features-heading{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.icon{
+    color: #fff;
+    margin: 2rem;
+    transform: scale(2);
+}
+
+.tab{
+    margin-top: 2rem;
+}
+
+.feature-desc{
+    margin-top: 1.5rem;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: rgb(57, 57, 57);
+    color: #fff;
+    text-align:center;
+    line-height: 0rem;
+    vertical-align: center;
+    transition: .2s;
+}
+
+.feature-desc:hover{
+    background-color: #061111;
+}
+
