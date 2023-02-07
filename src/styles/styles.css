@@ -15,6 +15,7 @@ h1{
     font-family: "Playfair Display";
 }
 
+
 .hero-text{
     font-size: 4.5rem;
     color: rgb(255, 255, 255);
@@ -47,6 +48,7 @@ h1{
     padding: 7% 15%;
     position: relative;
     z-index: 2;
+    background-color: #061111;
 
 }
 
@@ -88,3 +90,26 @@ h1{
     background-color: #061111;
 }
 
+
+.testimonial-header{
+    color: #fff;
+    font-size: 3.5rem;
+}
+
+.testimonial-subhead{
+    margin-top: 1.2rem;
+    color:#b4b4b4;
+    font-size: 1.5rem;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial{
+    color: #8c93a0;
+    font-size: 24px;
+}
+
+.name{
+    color: #8c93a0;
+}
