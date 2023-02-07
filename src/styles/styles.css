@@ -11,7 +11,12 @@ body *{margin: 0;}
 
 }
 
-h1{
+p{
+    font-family: 'Montserrat';
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #fff;
     font-family: "Playfair Display";
 }
 
@@ -112,4 +117,17 @@ h1{
 
 .name{
     color: #8c93a0;
+}
+
+.membership-header{
+    font-size: 3.5rem;
+    margin-bottom: 7rem;
+}
+
+.card-title{
+    font-size: 2rem;
+}
+
+.card-subtitle{
+    font-size: 1.5rem;
 }
